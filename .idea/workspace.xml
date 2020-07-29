@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86709664-24a0-463c-92b0-3e7a6085e15a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../mavean/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\mavean\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1erNxxr8DQoi01tw3i4xudyEQWf" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shennong.smart.common.base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\smart\resource-manager\src\main\resources\META-INFO.spring" />
+      <recent name="C:\smart\interface\resource-manager-interface\src\main\java\com\shennong\smart\resource\itf\proxy" />
+      <recent name="C:\smart\interface\resource-manager-interface\src\main\java\com\shennong\smart\resource\itf\proto" />
+      <recent name="C:\smart\resource-manager\src\main\java\com\shennong\smart\resource\manager\entry" />
+      <recent name="C:\smart\resource-manager\src\main\java\com\shennong\smart\resource\manager\task" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StartApplication">
+    <configuration name="ActivityManagerInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activity-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.activity.itf.ActivityManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityManagerInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activity-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ActivityManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigDataInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="big-data-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.big.itf.BigDataInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigDataInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="big-data-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.BigDataInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegralManagerInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="integral-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.integral.itf.IntegralManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegralManagerInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="integral-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.IntegralManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagerInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.order.itf.OrderManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagerInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.OrderManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceManagerInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resource-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.resource.itf.ResourceManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceManagerInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resource-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ResourceManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="start" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.start.StartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.user.manager.UserManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerInterfaceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shennong.smart.user.itf.UserManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-manager-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.UserManagerInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86709664-24a0-463c-92b0-3e7a6085e15a" name="Default Changelist" comment="" />
+      <created>1591103394822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591103394822</updated>
+      <workItem from="1591103397772" duration="225000" />
+      <workItem from="1591103693724" duration="5310000" />
+      <workItem from="1591115379111" duration="841000" />
+      <workItem from="1591190517381" duration="119000" />
+      <workItem from="1591198441822" duration="502000" />
+      <workItem from="1591199216363" duration="354000" />
+      <workItem from="1591281544234" duration="1259000" />
+      <workItem from="1591410953264" duration="1705000" />
+      <workItem from="1591445080429" duration="3009000" />
+      <workItem from="1591461510635" duration="22027000" />
+      <workItem from="1591626470860" duration="1759000" />
+      <workItem from="1591713363972" duration="5472000" />
+      <workItem from="1591799862784" duration="2501000" />
+      <workItem from="1591883064194" duration="1633000" />
+      <workItem from="1591884796687" duration="6964000" />
+      <workItem from="1594139076559" duration="463000" />
+      <workItem from="1594139569228" duration="74000" />
+      <workItem from="1594139673434" duration="121000" />
+      <workItem from="1594489448606" duration="666000" />
+      <workItem from="1594490136489" duration="599000" />
+      <workItem from="1594617921334" duration="598000" />
+      <workItem from="1594824235634" duration="612000" />
+      <workItem from="1594825012254" duration="1125000" />
+      <workItem from="1594826521764" duration="200000" />
+      <workItem from="1594826748821" duration="267000" />
+      <workItem from="1595057794084" duration="431000" />
+      <workItem from="1595058312393" duration="103000" />
+      <workItem from="1595058682599" duration="1604000" />
+      <workItem from="1595060334034" duration="97000" />
+      <workItem from="1595060475059" duration="2864000" />
+      <workItem from="1595070401142" duration="197000" />
+      <workItem from="1595070770758" duration="443000" />
+      <workItem from="1595071247764" duration="344000" />
+      <workItem from="1595071621966" duration="195000" />
+      <workItem from="1595076019483" duration="636000" />
+      <workItem from="1595077803295" duration="1410000" />
+      <workItem from="1595080168890" duration="1369000" />
+      <workItem from="1595141636820" duration="12688000" />
+      <workItem from="1595254788948" duration="3454000" />
+      <workItem from="1595349182694" duration="831000" />
+      <workItem from="1595649858630" duration="1734000" />
+      <workItem from="1596039399174" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596039474259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="455" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596039474259" />
+    <state x="617" y="179" key="FileChooserDialogImpl" timestamp="1595080338182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595080338182" />
+    <state width="1493" height="326" key="GridCell.Tab.0.bottom" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.0.center" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.0.left" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.0.right" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.1.bottom" timestamp="1596039648367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596039648367" />
+    <state width="1493" height="326" key="GridCell.Tab.1.center" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.1.left" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state width="1493" height="326" key="GridCell.Tab.1.right" timestamp="1596039648366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="326" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596039648366" />
+    <state x="101" y="36" key="SettingsEditor" timestamp="1595080142605">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="101" y="36" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595080142605" />
+    <state x="468" y="115" width="694" height="654" key="find.popup" timestamp="1595175727483">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="115" width="694" height="654" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595175727483" />
+    <state x="246" y="34" key="new project wizard" timestamp="1595077695774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="246" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595077695774" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595175631685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595175631685" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

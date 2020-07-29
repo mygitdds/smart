@@ -1,0 +1,59 @@
+2020-07-30 00:17:30,185 INFO  main                             - SOFABoot Runtime Starting!
+2020-07-30 00:17:32,215 INFO  main                             - Registering component: reference:com.shennong.smart.user.manager.service.TestUser:#414599042
+2020-07-30 00:17:32,215 INFO  main                             -  >>In Binding [jvm] Begins - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:32,217 INFO  main                             -  >>In Binding [jvm] Ends - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:32,218 INFO  main                             - Registering component: reference:com.shennong.smart.order.manager.service.TestSofa:#414599042
+2020-07-30 00:17:32,218 INFO  main                             -  >>In Binding [jvm] Begins - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:32,219 INFO  main                             -  >>In Binding [jvm] Ends - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:32,863 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of businessSystem Start +++++++++++++++++
+2020-07-30 00:17:32,873 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of businessSystem End +++++++++++++++++
+2020-07-30 00:17:32,873 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of businessSystem Start +++++++++++++++++
+2020-07-30 00:17:32,874 INFO  main                             - 
+All activated module list(6) >>>>>>>
+  ├─ com.model.activity
+  ├─ com.model.big.data
+  ├─ com.model.integral
+  ├─ com.model.resource
+  ├─ com.smart.order
+  └─ com.smart.user
+
+Modules that could install(6) >>>>>>>
+  ├─ com.model.activity
+  ├─ com.model.big.data
+  ├─ com.model.integral
+  ├─ com.model.resource
+  ├─ com.smart.order
+  └─ com.smart.user
+
+2020-07-30 00:17:32,876 INFO  main                             - Start install businessSystem's module: com.smart.order
+2020-07-30 00:17:33,040 INFO  main                             - Start install businessSystem's module: com.smart.user
+2020-07-30 00:17:33,069 INFO  sofa-module-start-com.smart.order - Begin refresh Spring Application Context of module com.smart.order of application businessSystem.
+2020-07-30 00:17:33,069 INFO  sofa-module-start-com.smart.user - Begin refresh Spring Application Context of module com.smart.user of application businessSystem.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.user - Registering component: service:com.shennong.smart.user.manager.service.TestUser
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.order - Registering component: service:com.shennong.smart.order.manager.service.TestSofa
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.user -  <<PreOut Binding [jvm] Begins - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.order -  <<PreOut Binding [jvm] Begins - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.user -  <<PreOut Binding [jvm] Ends - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.order -  <<PreOut Binding [jvm] Ends - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.user -  <<Out Binding [jvm] Begins - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:33,099 INFO  sofa-module-start-com.smart.order -  <<Out Binding [jvm] Begins - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:33,100 INFO  sofa-module-start-com.smart.user -  <<Out Binding [jvm] Ends - com.shennong.smart.user.manager.service.TestUser.
+2020-07-30 00:17:33,100 INFO  sofa-module-start-com.smart.order -  <<Out Binding [jvm] Ends - com.shennong.smart.order.manager.service.TestSofa.
+2020-07-30 00:17:33,100 INFO  sofa-module-start-com.smart.user - Register Service - com.shennong.smart.user.manager.service.TestUser
+2020-07-30 00:17:33,100 INFO  sofa-module-start-com.smart.order - Register Service - com.shennong.smart.order.manager.service.TestSofa
+2020-07-30 00:17:33,105 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of businessSystem End +++++++++++++++++
+2020-07-30 00:17:33,106 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of businessSystem Start +++++++++++++++++
+2020-07-30 00:17:33,106 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 70 ms, realTime = 35 ms]
+  ├─ com.smart.order [35 ms]
+  │    `---C:\smart\order-manager\target\classes\META-INF\spring\order-manager.xml
+  └─ com.smart.user [35 ms]
+       `---C:\smart\user-manager\target\classes\META-INF\spring\user-manager.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 70 ms, realTime = 35 ms]
+  ├─ com.smart.order [35 ms]
+  └─ com.smart.user [35 ms]
+
+2020-07-30 00:17:33,106 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of businessSystem End +++++++++++++++++

@@ -1,0 +1,13 @@
+2020-07-30 00:17:30.200  INFO 24844 --- [main] c.shennong.smart.start.StartApplication  : Starting StartApplication on DESKTOP-0ERQOO4 with PID 24844 (C:\smart\start\target\classes started by a9674 in C:\smart)
+2020-07-30 00:17:30.204  INFO 24844 --- [main] c.shennong.smart.start.StartApplication  : No active profile set, falling back to default profiles: default
+2020-07-30 00:17:31.238  INFO 24844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-30 00:17:31.242  INFO 24844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-30 00:17:31.286  INFO 24844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020-07-30 00:17:31.934  INFO 24844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2020-07-30 00:17:31.973  INFO 24844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-30 00:17:31.973  INFO 24844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-07-30 00:17:32.140  INFO 24844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-30 00:17:32.141  INFO 24844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1617 ms
+2020-07-30 00:17:32.444  INFO 24844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 00:17:33.142  INFO 24844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2020-07-30 00:17:33.143  INFO 24844 --- [main] c.shennong.smart.start.StartApplication  : Started StartApplication in 3.675 seconds (JVM running for 5.599)

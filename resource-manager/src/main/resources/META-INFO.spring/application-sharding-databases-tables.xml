@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:sharding="http://shardingsphere.apache.org/schema/shardingsphere/sharding"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://shardingsphere.apache.org/schema/shardingsphere/sharding
+                        http://shardingsphere.apache.org/schema/shardingsphere/sharding/sharding.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/tx
+                        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="shardingDataSource" />
+    </bean>
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <!-- 通过构造函数注入 -->
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+        <property name="basePackage" value="com.shennong.smart.resource.manager.mapper"/>
+    </bean>
+    <context:component-scan base-package="com.shennong.smart.resource.*"/>
+
+
+    <tx:annotation-driven />
+
+    <bean id="smart_resource_0" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://112.124.13.67:3306/smart_operation_resource_0?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="aB.967426"/>
+        <property name="maximumPoolSize" value="16"/>
+    </bean>
+
+    <bean id="smart_resource_1" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://112.124.13.67:3306/smart_operation_resource_1?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="aB.967426"/>
+        <property name="maximumPoolSize" value="16"/>
+    </bean>
+
+    <bean id="resourceSubTreasury" class="com.shennong.smart.resource.manager.config.sharding.ResourceSubTreasury" />
+    <bean id="resourceSubTable" class="com.shennong.smart.resource.manager.config.sharding.ResourceSubTable" />
+
+    <sharding:data-source id="shardingDataSource">
+        <sharding:sharding-rule data-source-names="smart_resource_0, smart_resource_1" default-data-source-name="smart_resource_0">
+            <sharding:table-rules>
+                <sharding:table-rule logic-table="t_smart_code" actual-data-nodes="smart_resource_${0..1}.t_smart_code_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_resource" actual-data-nodes="smart_resource_${0..1}.t_smart_resource_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_batch_code" actual-data-nodes="smart_resource_${0..1}.t_smart_batch_code_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_grant_code_record" actual-data-nodes="smart_resource_${0..1}.t_smart_grant_code_record_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_goods" actual-data-nodes="smart_resource_${0..1}.t_smart_goods_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_classification" actual-data-nodes="smart_resource_${0..1}.t_smart_classification_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+                <sharding:table-rule logic-table="t_smart_product" actual-data-nodes="smart_resource_${0..1}.t_smart_product_${0..1}" database-strategy-ref="resourceSubTreasury" table-strategy-ref="resourceSubTable"/>
+            </sharding:table-rules>
+            <sharding:binding-table-rules>
+                <sharding:binding-table-rule logic-tables="t_smart_code,t_smart_resource,t_smart_batch_code,t_smart_grant_code_record,t_smart_goods,t_smart_classification,t_smart_product"/>
+            </sharding:binding-table-rules>
+        </sharding:sharding-rule>
+        <sharding:props>
+            <prop key="sql.show">false</prop>
+        </sharding:props>
+    </sharding:data-source>
+</beans>
